@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7080356244140676298
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 33642015392591125, guid: f6ab795faef7b4160ac5164e207e8c63, type: 3}
+      propertyPath: m_Radius
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 33642016156231401, guid: f6ab795faef7b4160ac5164e207e8c63, type: 3}
+      propertyPath: m_baseHealth
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 33642016527118544, guid: f6ab795faef7b4160ac5164e207e8c63, type: 3}
+      propertyPath: m_detectorRange
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 33642016676176645, guid: f6ab795faef7b4160ac5164e207e8c63, type: 3}
+      propertyPath: m_canWander
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 33642016676176645, guid: f6ab795faef7b4160ac5164e207e8c63, type: 3}
+      propertyPath: m_chaseMovementSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 33642016676176645, guid: f6ab795faef7b4160ac5164e207e8c63, type: 3}
+      propertyPath: m_chaseWhenTargetInRange
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 33642016676176645, guid: f6ab795faef7b4160ac5164e207e8c63, type: 3}
+      propertyPath: m_wanderingMovementSpeed
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 33642016676176645, guid: f6ab795faef7b4160ac5164e207e8c63, type: 3}
+      propertyPath: m_maxChaseDistanceFromOriginalPosition
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 33642016771776752, guid: f6ab795faef7b4160ac5164e207e8c63, type: 3}
+      propertyPath: m_Name
+      value: Enemy_Robot Fast Variant Level 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 33642016771776766, guid: f6ab795faef7b4160ac5164e207e8c63, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 33642016771776766, guid: f6ab795faef7b4160ac5164e207e8c63, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 33642016771776766, guid: f6ab795faef7b4160ac5164e207e8c63, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 33642016771776766, guid: f6ab795faef7b4160ac5164e207e8c63, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 33642016771776766, guid: f6ab795faef7b4160ac5164e207e8c63, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 33642016771776766, guid: f6ab795faef7b4160ac5164e207e8c63, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 33642016771776766, guid: f6ab795faef7b4160ac5164e207e8c63, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 33642016771776766, guid: f6ab795faef7b4160ac5164e207e8c63, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 33642016771776766, guid: f6ab795faef7b4160ac5164e207e8c63, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 33642016771776766, guid: f6ab795faef7b4160ac5164e207e8c63, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 33642016771776766, guid: f6ab795faef7b4160ac5164e207e8c63, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1224290729700966522, guid: f6ab795faef7b4160ac5164e207e8c63, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.87722677
+      objectReference: {fileID: 0}
+    - target: {fileID: 1224290729700966522, guid: f6ab795faef7b4160ac5164e207e8c63, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.48007625
+      objectReference: {fileID: 0}
+    - target: {fileID: 1224290729700966522, guid: f6ab795faef7b4160ac5164e207e8c63, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.000000021345992
+      objectReference: {fileID: 0}
+    - target: {fileID: 1224290729700966522, guid: f6ab795faef7b4160ac5164e207e8c63, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.000000011681931
+      objectReference: {fileID: 0}
+    - target: {fileID: 1474062065418978959, guid: f6ab795faef7b4160ac5164e207e8c63, type: 3}
+      propertyPath: m_gearCountToSpawn
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 1474062065418978959, guid: f6ab795faef7b4160ac5164e207e8c63, type: 3}
+      propertyPath: m_gearValueToSpawn
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 6354140366584891662, guid: f6ab795faef7b4160ac5164e207e8c63, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6354140366584891662, guid: f6ab795faef7b4160ac5164e207e8c63, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6354140366584891662, guid: f6ab795faef7b4160ac5164e207e8c63, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7855830311312109358, guid: f6ab795faef7b4160ac5164e207e8c63, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7855830311312109358, guid: f6ab795faef7b4160ac5164e207e8c63, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8794792411286832910, guid: f6ab795faef7b4160ac5164e207e8c63, type: 3}
+      propertyPath: m_xpValue
+      value: 40
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f6ab795faef7b4160ac5164e207e8c63, type: 3}

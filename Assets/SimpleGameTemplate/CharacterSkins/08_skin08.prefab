@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1214174877146052
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4771651248344464}
+  - component: {fileID: 114159901078518226}
+  - component: {fileID: 114933137570605506}
+  - component: {fileID: 114998734273596944}
+  - component: {fileID: 114359273116062624}
+  - component: {fileID: 114839831068832928}
+  m_Layer: 0
+  m_Name: 08_skin08
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4771651248344464
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214174877146052}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114159901078518226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214174877146052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9469489aae3b5134c9f1efe0b79db9cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentSkin: {fileID: 0}
+--- !u!114 &114933137570605506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214174877146052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1de189d823364614b9a33246cb5aa266, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skinItemName: NameID
+  skinItemAliases: []
+  value: skin08
+--- !u!114 &114998734273596944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214174877146052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a40fba783b7fdeb429d4bb1f0af6f34b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skinItemName: SkinCost
+  skinItemAliases: []
+  value: 30
+--- !u!114 &114359273116062624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214174877146052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4992bbf94acc4726aaa8af5ec40a8f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skinItemName: Model
+  skinItemAliases: []
+  model: {fileID: 2516847626003382041, guid: 48c047554d1a34cf5b39709f5290be48, type: 3}
+--- !u!114 &114839831068832928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214174877146052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17fce3c3786724640b89263964f19f0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skinItemName: CanBeRewarded
+  skinItemAliases: []
+  value: 1
